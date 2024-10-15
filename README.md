@@ -97,66 +97,6 @@ npm install
 npm start
 ```
 
-### Project Structure
-
-├── 📁Client
-│   ├── 📁public
-│   │   └── vite.svg
-│   ├── 📁src
-│   │   ├── 📁assets
-│   │   │   └── react.svg
-│   │   ├── 📁components
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── LeaderboardItem.jsx
-│   │   │   ├── PrivateRoute.jsx
-│   │   │   ├── QuizQuestion.jsx
-│   │   ├── 📁pages
-│   │   │   ├── Home.jsx
-│   │   │   ├── Leaderboard.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Quiz.jsx
-│   │   │   ├── Register.jsx
-│   │   │   └── Results.jsx
-│   │   ├── 📁services
-│   │   │   ├── api.jsx
-│   │   │   └── authService.jsx
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── README.md
-│   ├── tailwind.config.js
-│   └── vite.config.js
-└── 📁Server
-    ├── 📁config
-    │   └── db.js
-    ├── 📁controllers
-    │   ├── leaderboardController.js
-    │   ├── quizController.js
-    │   ├── topicController.js
-    │   └── userController.js
-    ├── 📁data
-    │   └── questions.json
-    ├── 📁middlewares
-    │   └── authMiddleware.js
-    ├── 📁models
-    │   ├── questionModel.js
-    │   └── scoreModel.js
-    ├── 📁routes
-    │   ├── leaderboardRoutes.js
-    │   ├── quizRoutes.js
-    │   └── userRoutes.js
-    ├── index.js
-    └── package.json
-
-
 ### API Endpoints
 
 User Authentication
