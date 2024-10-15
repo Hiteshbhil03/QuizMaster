@@ -13,7 +13,8 @@ const app = express();
 connectDB().catch((err) => console.log(err));
 
 app.use(cors({
-   origin: process.env.CORS_ORIGIN || 'http://localhost:5173'
+   // origin: process.env.CORS_ORIGIN || 'http://localhost:5173'
+   origin: "https://quiz-app-full-stack-front-otl2mt4z2-iknowadityas-projects.vercel.app"
 }));
 
 app.use(express.json());
