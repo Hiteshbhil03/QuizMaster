@@ -14,7 +14,6 @@ connectDB().catch((err) => console.log(err));
 
 app.use(cors({
    origin: process.env.CORS_ORIGIN || 'http://localhost:5173'
-   // origin: "https://quiz-app-full-stack-frontend.onrender.com"
 }));
 
 app.use(express.json());
