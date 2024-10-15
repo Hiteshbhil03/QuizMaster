@@ -1,0 +1,217 @@
+[
+  {
+    "_id": "1",
+    "text": "What is JavaScript?",
+    "options": [
+      "A programming language",
+      "A type of coffee",
+      "A new car model",
+      "A book genre"
+    ],
+    "correctAnswer": "A programming language",
+    "topic": "JavaScript"
+  },
+  {
+    "_id": "2",
+    "text": "What is a closure in JavaScript?",
+    "options": [
+      "A way to declare variables",
+      "A function that retains access to its lexical scope",
+      "A method to close a program",
+      "None of the above"
+    ],
+    "correctAnswer": "A function that retains access to its lexical scope",
+    "topic": "JavaScript"
+  },
+  {
+    "_id": "3",
+    "text": "What does Python mainly used for?",
+    "options": [
+      "Web development",
+      "Data analysis",
+      "Mobile app development",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "topic": "Python"
+  },
+  {
+    "_id": "4",
+    "text": "Which of the following is a Python framework?",
+    "options": ["Django", "Flask", "Pyramid", "All of the above"],
+    "correctAnswer": "All of the above",
+    "topic": "Python"
+  },
+  {
+    "_id": "5",
+    "text": "Which of the following is a characteristic of Java?",
+    "options": [
+      "Platform-independent",
+      "Object-oriented",
+      "Strongly typed",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "topic": "Java"
+  },
+  {
+    "_id": "6",
+    "text": "What is the primary use of the 'main' method in Java?",
+    "options": [
+      "To start the execution of a program",
+      "To create objects",
+      "To define a class",
+      "None of the above"
+    ],
+    "correctAnswer": "To start the execution of a program",
+    "topic": "Java"
+  },
+  {
+    "_id": "7",
+    "text": "What does C++ allow that C does not?",
+    "options": [
+      "Function overloading",
+      "Pointers",
+      "Data structures",
+      "None of the above"
+    ],
+    "correctAnswer": "Function overloading",
+    "topic": "C++"
+  },
+  {
+    "_id": "8",
+    "text": "Which of the following is a valid C++ comment?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "// and /* this is a comment */",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "topic": "C++"
+  },
+  {
+    "_id": "9",
+    "text": "What is React primarily used for?",
+    "options": [
+      "Building server-side applications",
+      "Creating user interfaces",
+      "Data analysis",
+      "Game development"
+    ],
+    "correctAnswer": "Creating user interfaces",
+    "topic": "React"
+  },
+  {
+    "_id": "10",
+    "text": "What is a key feature of React?",
+    "options": [
+      "Virtual DOM",
+      "Two-way data binding",
+      "MVC architecture",
+      "None of the above"
+    ],
+    "correctAnswer": "Virtual DOM",
+    "topic": "React"
+  },
+  {
+    "_id": "11",
+    "text": "What is Node.js used for?",
+    "options": [
+      "Creating desktop applications",
+      "Running JavaScript on the server",
+      "Building mobile apps",
+      "All of the above"
+    ],
+    "correctAnswer": "Running JavaScript on the server",
+    "topic": "Node.js"
+  },
+  {
+    "_id": "12",
+    "text": "What is npm?",
+    "options": [
+      "Node Package Manager",
+      "A new programming language",
+      "A type of database",
+      "None of the above"
+    ],
+    "correctAnswer": "Node Package Manager",
+    "topic": "Node.js"
+  },
+  {
+    "_id": "13",
+    "text": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "Hightext Machine Language",
+      "Hyperlink and Text Markup Language",
+      "None of the above"
+    ],
+    "correctAnswer": "Hypertext Markup Language",
+    "topic": "HTML"
+  },
+  {
+    "_id": "14",
+    "text": "Which HTML element is used to define navigation links?",
+    "options": ["<nav>", "<link>", "<a>", "<ul>"],
+    "correctAnswer": "<nav>",
+    "topic": "HTML"
+  },
+  {
+    "_id": "15",
+    "text": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets",
+      "Creative Style Sheets"
+    ],
+    "correctAnswer": "Cascading Style Sheets",
+    "topic": "CSS"
+  },
+  {
+    "_id": "16",
+    "text": "Which CSS property is used to change the text color of an element?",
+    "options": ["color", "background-color", "font-color", "text-color"],
+    "correctAnswer": "color",
+    "topic": "CSS"
+  },
+  {
+    "_id": "17",
+    "text": "What is SQL used for?",
+    "options": [
+      "Database management",
+      "Data analysis",
+      "Web development",
+      "All of the above"
+    ],
+    "correctAnswer": "Database management",
+    "topic": "SQL"
+  },
+  {
+    "_id": "18",
+    "text": "Which SQL statement is used to extract data from a database?",
+    "options": ["GET", "SELECT", "EXTRACT", "PULL"],
+    "correctAnswer": "SELECT",
+    "topic": "SQL"
+  },
+  {
+    "_id": "19",
+    "text": "What is MongoDB?",
+    "options": [
+      "A type of SQL database",
+      "A NoSQL database",
+      "A programming language",
+      "None of the above"
+    ],
+    "correctAnswer": "A NoSQL database",
+    "topic": "MongoDB"
+  },
+  {
+    "_id": "20",
+    "text": "What does BSON stand for in MongoDB?",
+    "options": ["Binary JSON", "Basic JSON", "Binary SQL", "None of the above"],
+    "correctAnswer": "Binary JSON",
+    "topic": "MongoDB"
+  }
+]
