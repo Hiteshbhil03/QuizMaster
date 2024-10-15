@@ -13,7 +13,7 @@ const app = express();
 connectDB().catch((err) => console.log(err));
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+   origin: process.env.CORS_ORIGIN || 'http://localhost:5173'
 }));
 
 app.use(express.json());
