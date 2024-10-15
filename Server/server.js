@@ -22,6 +22,10 @@ app.use('/api/users', userRoutes);
 app.use('/api/quiz', quizRoutes);
 app.use('/api/leaderboard', leaderboardRoutes);
 app.use('/api/topics', topicsRouter);
+app.get('/', (req, res) => {
+    res.send('API is running');
+});
+
 
 const PORT = process.env.PORT || 5000;
 
