@@ -1,8 +1,11 @@
 import api from './api';
 
+// Use this for login:
+const API_URL = 'http://localhost:5000/users/login';
+
 const AuthService = {
     async login(email, password) {
-        const response = await api.post('/users/login', { email, password });
+        const response = await api.post(API_URL, { email, password });
         if (response.data.token) {
             localStorage.setItem('token', response.data.token);
             localStorage.setItem('userId', response.data._id);
@@ -12,7 +15,7 @@ const AuthService = {
     },
 
     async register(name, email, password) {
-        const response = await api.post('/users/register', { name, email, password });
+        const response = await api.post('http://localhost:5000/users/register', { name, email, password });
         if (response.data.token) {
             localStorage.setItem('token', response.data.token);
             localStorage.setItem('userId', response.data._id);
